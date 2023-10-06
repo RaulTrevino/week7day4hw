@@ -43,7 +43,7 @@ function addf1racerinfo(getRacerInfo){
         tableNationality.innerText=driver.Driver.nationality
         
         const tableSponsor=document.createElement('td')
-        tableSponsor.innerText=driver.Constructors.name
+        tableSponsor.innerText=driver.Constructors[0].name
         
         
         const tablepoints=document.createElement('td')
